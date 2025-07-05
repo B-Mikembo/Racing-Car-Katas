@@ -8,7 +8,7 @@ public class AlarmTest {
 
     @Test
     public void foo() {
-        Alarm alarm = new Alarm();
+        var alarm = new Alarm();
         assertFalse(alarm.isAlarmOn());
     }
 }
